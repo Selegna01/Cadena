@@ -11,6 +11,6 @@ public class Cadena{
         String apellido_Materno = almacenar.nextLine();
         
 
-       System.out.println("Tu nombre es: " + nombre + apellido_Paterno + apellido_Materno); //donde nombre, es utilizado para escanear el nombre ingresado.
+       System.out.println("Tu nombre es: " + nombre + " " + apellido_Paterno + " " + apellido_Materno); //donde nombre, es utilizado para escanear el nombre ingresado.
     }
 }
