@@ -5,6 +5,9 @@ public class Cadena{
         Scanner almacenar = new Scanner(System.in);
         System.out.println("Escribe tu nombre");
         String nombre = almacenar.nextLine();
+        String apellido_Paterno = almacenar.nextLine();
+        String apellido_Materno = almacenar.nextLine();
+        
 
         System.out.println("Tu nombre es:" +nombre);
     }
